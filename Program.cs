@@ -18,7 +18,7 @@ if (app.Environment.IsDevelopment())
 
 app.MapGet("/", () =>
 {
-    var response = new DeveloperInfo("Nick", "Cave", "nick@aol.com", "867-5309");
+    var response = new DeveloperInfo("Warren", "Ellis", "we@aol.com", "867-5309");
     return response;
 })
 .WithName("GetOnCallDeveloper");
